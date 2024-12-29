@@ -1,6 +1,6 @@
 const db = require("../config/db.js");
 
-const TABLE = "pura"; // Correct table name
+const TABLE = "pura";
 
 exports.getAllPura = (req, res) => {
   const sql = `SELECT * FROM ${TABLE}`;
